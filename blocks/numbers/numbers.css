@@ -1,0 +1,40 @@
+.numbers {
+  width: 100%;
+  min-height: 637px;
+  background: #EF3527;
+  display: flex;
+}
+
+.numbers__grid {
+  margin: 95px auto;
+  display: grid;
+  grid-template-columns: 420px 360px 360px;
+  grid-template-rows: 170px 170px;
+  column-gap: 80px;
+  row-gap: 108px;
+}
+
+.numbers__content {
+  display: flex;
+}
+
+.number__icon {
+  margin: 0 auto auto;
+}
+
+.number__content-wrap {
+  width: 257px;
+  margin-left: auto;
+}
+
+.numbers__content-title {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 66px;
+  letter-spacing: 0.2px;
+  color: #FFA630;
+  margin: 0;
+}
+

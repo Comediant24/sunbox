@@ -1,0 +1,22 @@
+.social__column-links {
+  list-style-type: none; 
+  padding: 0; 
+  margin: 90px 0 0;
+  display: flex;
+}
+
+.social__column-link {
+  margin-right: 55px;
+}
+
+.social__column-link:last-of-type {
+  margin-right: 0;
+}
+
+.social__link-icon {
+  transition: transform 0.4s ease;
+}
+
+.social__link-icon:hover {
+  transform: scale(1.2);
+}

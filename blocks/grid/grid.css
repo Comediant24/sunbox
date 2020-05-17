@@ -1,0 +1,38 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 420px);
+  grid-template-rows: repeat(2, 420px);
+  gap: 20px;
+}
+
+.grid__content {
+  width: 420px;
+  height: 420px;
+  position: relative;
+}
+
+.grid__content-frame {
+  width: 270px;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #252525;
+  display: flex;
+  align-items: center;
+}
+
+.grid__content-title {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+}
+
+.grid__content_xl {
+  grid-column: 1 / 3;
+}

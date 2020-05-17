@@ -1,0 +1,68 @@
+.contacts {
+  display: flex;
+  min-height: 620px;
+  align-items: center;
+  margin: 0 70px 100px;
+}
+
+.contacts__content {
+  margin: 0 70px 0 90px;
+}
+
+.contacts__title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 42px;
+  color: #FFA630;
+  margin: 0;
+}
+
+.contacts__text {
+  color: white;
+}
+
+.contacts__mail {
+  text-decoration: none;
+}
+
+.contacts__map-wrap {
+  position: relative;
+}
+
+.contacts__map {
+  width:859px;
+}
+
+.contacts__map-marker {
+  position: absolute;
+  background: #EF3527;
+  position: absolute;
+  width: 160px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 322px;
+  left: 200px;
+}
+
+ .contacts__map-marker::after {
+  content: ''; 
+  position: absolute;
+  left: 30px;
+  top: 50px;
+  border: 18px solid transparent;
+  border-top: 18px solid #EF3527;
+ }
+
+.contacts__marker {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  color: #212121;
+}

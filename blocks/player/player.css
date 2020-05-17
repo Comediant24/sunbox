@@ -1,0 +1,39 @@
+
+
+.player__button-shadow {
+  width: 132px;
+  height: 132px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.player__button-bg {
+  width: 78px;
+  height: 77.8px;
+  background: #F2F2F2;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+  
+}
+
+.player__button-bg:hover {
+  transform: scale(1.5);
+}
+
+.player__button-triangle {
+  width: 0;
+	height: 0;
+	border-top: 9px solid transparent;
+	border-left: 14px solid black;
+  border-bottom: 9px solid transparent;
+  margin: 0 auto;
+}
