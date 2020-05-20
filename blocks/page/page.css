@@ -3,4 +3,5 @@
   margin: 0 auto;
   background: #252525;
   overflow: hidden;
+  text-rendering: optimizeLegibility;
 }

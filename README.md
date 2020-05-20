@@ -1,5 +1,7 @@
 # *Sunbox* - website project
 
+**[Sunbox - gh pages](https://comediant24.github.io/sunbox/)**
+
 Hi everyone!
 Beautiful layout made by **[Branko Markovic](https://dribbble.com/iam5kinny)**. For any commercial purposes please contact with them. The design made in figma.
 
@@ -9,3 +11,5 @@ The project consists of a one-page site, dedicated to sustainable projects, some
  
 The following knowledge and technologies are implemented in the project:
 **HTML, semantic tags, CSS, Flexbox-layout, GRID, positioning, animation and transformation, forms, BEM, Flat - file structure.**
+
+20/05/20 add text-rendering and other features
