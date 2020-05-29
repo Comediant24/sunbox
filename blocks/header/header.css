@@ -1,34 +1,73 @@
 .header {
   width: 100%;
-  min-height: 780px;
   background: #EF3527;
   background-image: url(../../images/header-bg.png);
+  background-position: center;
+  background-size: cover;
 }
 
 .header__navbar {
-  width: 1300px;
+  width: 90%;
   margin: 0 auto;
   padding-top: 25px;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr minmax(400px, 2fr) 1fr;
   align-items: center;
 }
 
+@media screen and (max-width:600px) {
+  .header__navbar {
+    grid-template-columns: minmax(350px, 2fr) 1fr;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .header__navbar {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+.header__link_logo {
+  background-image: url(../../images/Logo.png);
+  width: 198px;
+  height: 53px;
+}
+
+
+@media screen and (max-width:1000px) {
+  .header__link_logo {
+    background-image: url(../../images/Logo-s.png);
+    width: 46px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .header__link_logo {
+    display: none;
+  }
+}
+
 .header__links {
-  flex-basis: 50%;
   text-align: center;
   margin: 0 auto;
+  display: flex;
+}
+
+@media screen and (max-width:450px) {
+  .header__links {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto 0 0;
+  }
 }
 
 .header__link {
   text-decoration: none;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
+  color: #FFFFFF;
   line-height: 30px;
   letter-spacing: 0.2px;
   text-transform: uppercase;
-  color: #FFFFFF;
   margin: 0 30px 0 0;
   transition: color 0.2s linear;
 }
@@ -41,12 +80,21 @@
   margin-right: 0px;
 }
 
+@media screen and (max-width:600px) {
+  .header__link {
+    margin: 0 16px 0 0;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .header__link {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+  }
+}
+
 .header__lang-list {
-  margin-left: auto;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
+  margin-left: auto;  
   line-height: 30px;
   letter-spacing: 0.2px;
   text-transform: uppercase;
@@ -54,40 +102,104 @@
   margin-left: auto;
 }
 
+.header__lang {
+  color: #FFFFFF;
+  margin-left: auto;
+  border: 0;
+  line-height: 30px;
+  min-width: 53px; 
+  max-width: 100%;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;  
+  background: none;
+  background-image: url(../../images/arrow.png); 
+  background-repeat: no-repeat;
+  background-position: right 10px top 50%;
+  } 
+
+.header__lang::-ms-expand {
+  display: none;
+} 
+
+.header__lang:hover {
+  background-color: #e53225;
+}
+
+.header__lang:focus {
+  background-color: #e53225;
+} 
+
 .header__title {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
   font-weight: 600;
   font-size: 95px;
   line-height: 73px;
   text-align: center;
-  letter-spacing: 0.2px;
-  color: #FFFFFF;
-  margin: 250px auto 20px;
-  width: 60%;
+  margin: 17% auto 1.5%;
+  max-width: 70%;
+}
+
+@media screen and (max-width:700px) {
+  .header__title {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .header__title {
+    font-size: 50px;
+  }
 }
 
 .header__subtitle {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 30px;
-  line-height: 42px;
+  line-height: 1.4;
   text-align: center;
   color: #FFFFFF;
   margin: 0 auto;
-  width: 60%;
+  max-width: 70%;
+}
+
+@media screen and (max-width:700px) {
+  .header__subtitle {
+    font-size: 25px;
+    max-width: 60%;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .header__subtitle {
+    font-size: 20px;
+    max-width: 70%;
+  }
 }
 
 .header__wrap-scroll {
   text-align: center;
 }
 
+@media screen and (max-width:800px) {
+  .header__wrap-scroll {
+    display: none;
+  }
+}
+
 .header__player {
-  margin: 37px 0 55px;
+  margin-top: 37px;
+  padding-bottom: 55px;
+}
+
+@media screen and (max-width:700px) {
+  .header__player {
+    margin-top: 30px;
+    padding-bottom: 30px;
+  }
 }
 
 .header__scroll {
+  margin-bottom: 30px;
   cursor: pointer;
   transition: transform 0.2s linear;
 }
