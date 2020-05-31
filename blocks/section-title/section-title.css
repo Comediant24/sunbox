@@ -1,11 +1,7 @@
 .section-title {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 60px;
-  line-height: 66px;
-  letter-spacing: 0.2px;
-  color: #FFFFFF;
+  line-height: 1.1;
   margin: 0;
 }
 
@@ -17,6 +13,6 @@
 
 @media screen and (max-width:450px) {
   .section-title {
-    font-size: 30px;
+    font-size: 36px;
   }
 }
