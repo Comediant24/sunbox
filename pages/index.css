@@ -1,4 +1,5 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/logo/logo.css);
@@ -17,10 +18,3 @@
 @import url(../blocks/contacts/contacts.css);
 @import url(../blocks/social/social.css);
 @import url(../blocks/footer/footer.css);
-
-
-@font-face {
-  font-family: 'Poppins';
-  src: url('../fonts/poppins-regular.woff2') format('woff2'),
-        url('../fonts/poppins-regular.woff') format('woff');
-}
