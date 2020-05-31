@@ -3,34 +3,8 @@
   margin: 150px auto 100px;
 }
 
-.focus__content {
-  border: 20px solid #FFA630;
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 290px;
-}
-
-@media screen and (max-width:700px) {
-  .focus__content {
-    border: 14px solid #FFA630;
-  }
-}
-
-.focus__conteiner {
-  display: flex;
-  flex-direction: column;
-}
-
-.focus__delimeter {
-  background: #EF3527;
-  width: 192px;
-  height: 4px;
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
-
-.focus__title {
-  width: min-content;
+@media screen and (max-width:600px) {
+  .focus {
+    margin: 120px auto 50px;
+  }  
 }

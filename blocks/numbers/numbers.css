@@ -1,17 +1,45 @@
 .numbers {
   width: 100%;
-  min-height: 637px;
   background: #EF3527;
-  display: flex;
+  padding: 95px 0;
+}
+
+@media screen and (max-width:600px) {
+  .numbers {
+    padding: 50px 0;
+  }  
 }
 
 .numbers__grid {
   width: 90%;
-  margin: 95px auto;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: minmax(300px, 1.2fr) repeat(auto-fit, minmax(325px, 1fr));
   column-gap: calc(100%/20);
-  row-gap: calc(100%/20);
+  row-gap: 88px;
+}
+
+@media screen and (max-width:1000px) {
+  .numbers__grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    column-gap: calc(100%/25);
+    row-gap: 40px;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .numbers__grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    column-gap: calc(100%/25);
+    row-gap: 16px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .numbers__grid {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
 }
 
 .numbers__item {
@@ -26,14 +54,27 @@
   margin: 0 auto;
 }
 
+@media screen and (max-width:700px) {
+  .number__icon {
+    max-width:60px;
+    max-height: 60px;
+  }
+}
+
 .number__item-wrap {
   margin-left: 5%;
   width: 70%;
 }
 
+@media screen and (max-width:600px) {
+  .number__item-wrap {
+    width: 75%;
+  }
+}
+
 .numbers__item-title {
   font-size: 60px;
-  line-height: 66px;
+  line-height: 1.1;
   letter-spacing: 0.2px;
   color: #FFA630;
   margin: 0;

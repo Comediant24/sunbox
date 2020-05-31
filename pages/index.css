@@ -2,6 +2,7 @@
 @import url(../blocks/root/root.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/logo/logo.css);
+@import url(../blocks/button/button.css);
 @import url(../blocks/rotation/rotation.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/player/player.css);
@@ -21,5 +22,5 @@
 @font-face {
   font-family: 'Poppins';
   src: url('../fonts/poppins-regular.woff2') format('woff2'),
-       url('../fonts/poppins-regular.woff') format('woff');
+        url('../fonts/poppins-regular.woff') format('woff');
 }
