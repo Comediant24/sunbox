@@ -1,18 +1,36 @@
-# *Sunbox* - website project
+<h1 align="center">
+    SolarBox
+</h1>
+<p align="center">
+    <img alt="Version 1.0.0" src="https://img.shields.io/badge/version-1.0.0-blue" />
+    <img alt="Quality" src="https://img.shields.io/badge/status-release-orange.svg" >
+    <img alt="Made by: Comediany" src="https://img.shields.io/badge/made%20by-Comediant24-blue" />
+</p>
 
-**[Sunbox - gh pages](https://comediant24.github.io/sunbox/)**
+🌈 Красивый макет выполненный **[Branko Markovic](https://dribbble.com/iam5kinny)**.
+Ссылка на проект в gh-pages: **[SolarBox](https://comediant24.github.io/sunbox/)**
 
-Hi everyone!
+![Watch the video](./public/preview.gif)
 
-Beautiful layout made by **[Branko Markovic](https://dribbble.com/iam5kinny)**. For any commercial purposes please contact with them. The design made in figma.
+## 📖 Задача
 
-SolarBox develops sustainable projects that fix critical aging equipment in buildings, generate renewable power, upgrade operations technology, create healthier environments and reinvest in local communities.
+Cоздать одностраничный сайт по макету из фигмы. Он должен корректно отображаться на экранах популярных размеров.
+Необходимо применить флексбокс и гриды, создние медиазапросов, установить переломные точки, самому спроектировать дизайн на устройствах с меньшими разрешениями.
 
-The project consists of a one-page site, dedicated to sustainable projects, some of the functions and advantages of this site are given.
- 
-The following knowledge and technologies are implemented in the project:
-**HTML, semantic tags, CSS, Flexbox-layout, GRID, positioning, animation and transformation, forms, BEM, Flat - file structure.**
+## 📃 Краткое описание
 
-20/05/20 add text-rendering and other features
+В проекте реализованы следующие знания и технологии: HTML, семантические теги, CSS, Flexbox-layout, Grid, позиционирование, анимация и трансформация, формы, БЭМ, Flat - файловая структура.
 
-31/05/20 add responsive and other features
+## 👨🏻‍💻 HTML, CSS
+
+- Flexbox-верстка
+- Grid
+- Позиционирование
+- Работа с формой
+- Семантическая верстка
+- Анимация и трансформация
+- БЭМ
+
+## 📃 Стек
+
+- HTML, CSS
